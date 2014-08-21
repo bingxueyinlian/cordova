@@ -33,26 +33,22 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-		document.addEventListener('batterystatus',function(info){
-				app.setBatteryStatus(info);
-			},false);
-		document.addEventListener('batterycritical',function(info){
-			app.setBatteryCritical(info);
-		},false);
-		document.addEventListener('batterylow',function(info){
-			app.setBatteryLow(info);
-		},false);
-    },
-    setBatteryStatus: function(info) { // Handle the online event
-        var batterystatus = document.getElementById('batterystatus');
-		batterystatus.html("Level:"+info.level+",isPlugged:"+info.isPlugged);
-    },
-	setBatteryCritical:function(info){// Handle the battery critical event
-		var batterycritical = document.getElementById('batterycritical');
-		batterycritical.html("Battery Level Critical:"+info.level+"%.Recharge Soon!");
-	},
-	setBatteryLow:function(info){ // Handle the battery low event
-		var batterylow = document.getElementById('batterylow');
-		batterylow.html("Battery Level Low " + info.level + "%");
-	}
+		window.addEventListener("batterystatus", onBatteryStatus, false);
+		function onBatteryStatus(info) {
+			// Handle the online event
+			alert("Level: " + info.level + " isPlugged: " + info.isPlugged);
+		}
+			
+		window.addEventListener("batterycritical", onBatteryCritical, false);
+		function onBatteryCritical(info) {
+			// Handle the battery critical event
+			alert("Battery Level Critical " + info.level + "%\nRecharge Soon!");
+		}
+		
+		window.addEventListener("batterylow", onBatteryLow, false);
+		function onBatteryLow(info) {
+			// Handle the battery low event
+			alert("Battery Level Low " + info.level + "%");
+		}
+    }
 };

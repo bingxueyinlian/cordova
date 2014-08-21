@@ -1,4 +1,4 @@
-F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\BatteryStatus-debug-unaligned.apk : \
-F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\BatteryStatus.ap_ \
-F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\classes.dex \
-F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\CordovaLib\ant-build\classes.jar \
+D:\Android\workspace\cordova\demo\plugins\battery_status\platforms\android\ant-build\BatteryStatus-debug-unaligned.apk : \
+D:\Android\workspace\cordova\demo\plugins\battery_status\platforms\android\ant-build\BatteryStatus.ap_ \
+D:\Android\workspace\cordova\demo\plugins\battery_status\platforms\android\ant-build\classes.dex \
+D:\Android\workspace\cordova\demo\plugins\battery_status\platforms\android\CordovaLib\ant-build\classes.jar \
