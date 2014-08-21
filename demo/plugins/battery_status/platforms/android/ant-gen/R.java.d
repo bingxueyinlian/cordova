@@ -14,4 +14,17 @@ F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\res\dr
 F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\res\drawable-xhdpi\icon.png \
 F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\res\values\strings.xml \
 F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\res\xml\config.xml \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable\icon.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
+F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
 F:\baiduyundownload\cordova\demo\plugins\battery_status\platforms\android\ant-build\AndroidManifest.xml \
