@@ -46,7 +46,7 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		//device-motion orientation
+		//device-orientation info
 		//getCurrentHeading
 		document.getElementById('getCurrentHeading').addEventListener('click',function(){
 				navigator.compass.getCurrentHeading(function (heading) {
